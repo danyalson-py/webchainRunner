@@ -15,7 +15,7 @@ update(){
 	sed -i 's/pool.webchain.network:3333/pool.webchain.network:2222/g' config.json
 	sed -i 's/donate-level": 5/donate-level": 1/g' config.json
 	sed -i 's/"max-cpu-usage": 75,/"max-cpu-usage": 95,/g' config.json
-	sed -i 's/"worker-id": "0",/"worker-id": "'Worker4'",/g' config.json
+	sed -i 's/"worker-id": "0",/"worker-id": "'Worker5'",/g' config.json
 	}
 
 update && echo "Updated SUCCESFULLY ! Now run ./webchain-miner" || echo "Update failed !!! ..."
